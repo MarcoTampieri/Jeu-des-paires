@@ -1,0 +1,116 @@
+#blocco {
+    margin-left: auto;
+}
+
+.grid-container {
+    margin: auto;
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas: "casella1 casella2 casella3 casella4 casella5" "casella6 casella7 casella8 casella9 casella10" "casella11 casella12 textzone casella13 casella14";
+  }
+
+.casella1 { 
+    grid-area: casella1;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url("immagini/coverSmall.jpg");
+}
+
+.casella2 { 
+    grid-area: casella2;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella3 { 
+    grid-area: casella3;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella4 { 
+    grid-area: casella4; 
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella5 { 
+    grid-area: casella5; 
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella6 { 
+    grid-area: casella6; 
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella7 { 
+    grid-area: casella7; 
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella8 { 
+    grid-area: casella8;
+    border: 2px solid black;
+    border-radius: 5px; 
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella9 { 
+    grid-area: casella9;
+    border: 2px solid black;
+    border-radius: 5px; 
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella10 { 
+    grid-area: casella10;
+    border: 2px solid black;
+    border-radius: 5px; 
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella11 { 
+    grid-area: casella11;
+    border: 2px solid black;
+    border-radius: 5px; 
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella12 { 
+    grid-area: casella12; 
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella13 { 
+    grid-area: casella13;
+    border: 2px solid black;
+    border-radius: 5px; 
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.casella14 { 
+    grid-area: casella14;
+    border: 2px solid black;
+    border-radius: 5px; 
+    background-image: url("immagini/coverSmall.jpg")
+}
+
+.textzone { 
+    grid-area: textzone;
+    border: 2px solid black;
+    border-radius: 5px; 
+}
