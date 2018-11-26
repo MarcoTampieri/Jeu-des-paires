@@ -8,109 +8,119 @@
     grid-gap: 7px;
     grid-template-columns: 150px 150px 150px 150px 150px;
     grid-template-rows: 150px 150px 150px;
-    grid-template-areas: "casella1 casella2 casella3 casella4 casella5" "casella6 casella7 casella8 casella9 casella10" "casella11 casella12 textzone casella13 casella14";
-  }
+    grid-template-areas: "casella1 casella2 casella3 casella4 casella5""casella6 casella7 casella8 casella9 casella10""casella11 casella12 textzone casella13 casella14";
+}
 
-.casella1 { 
+.casella1 {
     grid-area: casella1;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-image: url("immagini/coverSmall.jpg");
 }
 
-.casella2 { 
+.casella2 {
     grid-area: casella2;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-image: url("immagini/coverSmall.jpg")
 }
 
-.casella3 { 
+.casella3 {
     grid-area: casella3;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-image: url("immagini/coverSmall.jpg")
 }
 
-.casella4 { 
-    grid-area: casella4; 
-    border: 2px solid black;
-    border-radius: 5px;
-    background-image: url("immagini/coverSmall.jpg")
+.casella4 {
+    grid-area: casella4;
 }
 
-.casella5 { 
-    grid-area: casella5; 
-    border: 2px solid black;
-    border-radius: 5px;
-    background-image: url("immagini/coverSmall.jpg")
+.casella5 {
+    grid-area: casella5;
 }
 
-.casella6 { 
-    grid-area: casella6; 
-    border: 2px solid black;
-    border-radius: 5px;
-    background-image: url("immagini/coverSmall.jpg")
+.casella6 {
+    grid-area: casella6;
 }
 
-.casella7 { 
-    grid-area: casella7; 
-    border: 2px solid black;
-    border-radius: 5px;
-    background-image: url("immagini/coverSmall.jpg")
+.casella7 {
+    grid-area: casella7;
 }
 
-.casella8 { 
+.casella8 {
     grid-area: casella8;
-    border: 2px solid black;
-    border-radius: 5px; 
-    background-image: url("immagini/coverSmall.jpg")
 }
 
-.casella9 { 
+.casella9 {
     grid-area: casella9;
-    border: 2px solid black;
-    border-radius: 5px; 
-    background-image: url("immagini/coverSmall.jpg")
 }
 
-.casella10 { 
+.casella10 {
     grid-area: casella10;
-    border: 2px solid black;
-    border-radius: 5px; 
-    background-image: url("immagini/coverSmall.jpg")
 }
 
-.casella11 { 
+.casella11 {
     grid-area: casella11;
-    border: 2px solid black;
-    border-radius: 5px; 
-    background-image: url("immagini/coverSmall.jpg")
 }
 
-.casella12 { 
-    grid-area: casella12; 
+.casella12 {
+    grid-area: casella12;
+}
+
+.casella13 {
+    grid-area: casella13;
+}
+
+.casella14 {
+    grid-area: casella14;
+}
+
+.nascosta {
+    z-index: 5;
+}
+
+.faccie {
+    z-index: 2;
+}
+
+.scoperta {
+    z-index: -1;
+}
+
+img {
     border: 2px solid black;
     border-radius: 5px;
-    background-image: url("immagini/coverSmall.jpg")
+    position: absolute;
 }
 
-.casella13 { 
-    grid-area: casella13;
-    border: 2px solid black;
-    border-radius: 5px; 
-    background-image: url("immagini/coverSmall.jpg")
-}
-
-.casella14 { 
-    grid-area: casella14;
-    border: 2px solid black;
-    border-radius: 5px; 
-    background-image: url("immagini/coverSmall.jpg")
-}
-
-.textzone { 
+.textzone {
     grid-area: textzone;
     border: 2px solid black;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
+
+/*
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.deck {
+	width: 85%;
+	background: #716F71;
+	padding: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 0 3em;
+}
+
+.deck .card {
+	height: 150px;
+	width: 150px;
+	margin: 0.2rem 0.2rem;
+	background: #141214;;
+	font-size: 0;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+*/
