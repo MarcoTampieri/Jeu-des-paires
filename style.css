@@ -71,12 +71,8 @@
     z-index: 5;
 }
 
-.faccie {
-    z-index: 2;
-}
-
 .scoperta {
-    z-index: -1;
+    z-index: 10;
 }
 
 img {
